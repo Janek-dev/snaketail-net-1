@@ -1482,7 +1482,7 @@ namespace SnakeTail
                 string eventMessage = eventLogEntry.Message;
                 int eventId = (int)(eventLogEntry.InstanceId);
                 if (eventMessage.IndexOf(" Event ID '" + eventId.ToString() + "' ") != -1)
-                    return; // Cannot be used
+                    return; // Cannot be used in My ass
             }
 
             lock (_eventMessages)
