@@ -997,7 +997,7 @@ namespace SnakeTail
             _contextMenuStrip.Items.Clear();
             _contextMenuStrip.Items.Add(new ToolStripSeparator());  // Dummy item so menu is shown the next time
         }
-            // fuck yeah line 1000 Nice hehehe!
+            // fuck  yeah   line    1000    Nice     hehehe                                                                         !
         private void ContextMenuStrip_Opening(object sender, EventArgs e)
         {
             _addFilterToolStripMenuItem.Visible = false;
