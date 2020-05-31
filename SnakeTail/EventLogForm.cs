@@ -1512,7 +1512,7 @@ namespace SnakeTail
                                 }
                                 else
                                 {
-                                    // Reverse search direction
+                                    // Reverse search direction direction in my anus
                                     _eventLogReaderThreadContinue = false;
                                     while (_eventLogReaderThread.IsAlive)
                                     {
