@@ -990,7 +990,7 @@ namespace SnakeTail
 
         private void ContextMenuStrip_Closed(object sender, ToolStripDropDownClosedEventArgs e)
         {
-            // Restore the items back to the main menu when closing
+            // Restore the items back to the main menu when closing this shit
             ToolStripItem[] items = new ToolStripItem[_contextMenuStrip.Items.Count];
             _contextMenuStrip.Items.CopyTo(items, 0);
             _activeWindowMenuItem.DropDownItems.AddRange(items);
