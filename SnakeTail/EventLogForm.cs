@@ -990,14 +990,14 @@ namespace SnakeTail
 
         private void ContextMenuStrip_Closed(object sender, ToolStripDropDownClosedEventArgs e)
         {
-            // Restore the items back to the main menu when closing this shit
+            // Restore the items back to the main menu when closing this shit.
             ToolStripItem[] items = new ToolStripItem[_contextMenuStrip.Items.Count];
             _contextMenuStrip.Items.CopyTo(items, 0);
             _activeWindowMenuItem.DropDownItems.AddRange(items);
             _contextMenuStrip.Items.Clear();
             _contextMenuStrip.Items.Add(new ToolStripSeparator());  // Dummy item so menu is shown the next time
         }
-
+            // fuck yeah line 1000 Nice hehehe!
         private void ContextMenuStrip_Opening(object sender, EventArgs e)
         {
             _addFilterToolStripMenuItem.Visible = false;
